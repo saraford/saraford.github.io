@@ -1,36 +1,147 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>saraford.net by saraford</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sara Ford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css?v=3">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>saraford.net</h1>
-        <p></p>
-
-
-        <p class="view"><a href="https://github.com/saraford">View My GitHub Profile</a></p>
-
+    <main class="container">
+      <header class="header">
+        <h1 class="title">Sara Ford</h1>
+        <p class="subtitle">Developer Relations Engineer</p>
       </header>
-      <section>
-        <h3>
-<a id="is-under-construction-still-a-thing" class="anchor" href="#is-under-construction-still-a-thing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>is Under Construction still a thing?</h3>
+
+      <section class="links">
+        <!-- GitHub Card -->
+        <article class="card" data-url="https://github.com/saraford" aria-label="Sara Ford on GitHub">
+          <div class="card-left">
+            <div class="icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+            </div>
+            <div class="info">
+              <span class="platform-name">GitHub</span>
+              <span class="handle">@saraford</span>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button type="button" class="action-btn copy-btn" aria-label="Copy GitHub URL">
+              <span class="tooltip">copy link</span>
+              <svg class="copy-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="13" height="13" x="8" y="8" rx="2" ry="2"/>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v1"/>
+              </svg>
+              <svg class="check-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;" aria-hidden="true">
+                <path d="M20 6L9 17l-5-5"/>
+              </svg>
+            </button>
+            <a class="action-btn link-arrow" href="https://github.com/saraford" target="_blank" rel="noopener noreferrer" aria-label="Open Sara Ford on GitHub">
+              <span class="tooltip">open in new tab</span>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17L17 7"/>
+                <path d="M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- LinkedIn Card -->
+        <article class="card" data-url="https://www.linkedin.com/in/sarasford" aria-label="Sara Ford on LinkedIn">
+          <div class="card-left">
+            <div class="icon-wrapper">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76m1.4 9.74v-8.37H5.06v8.37h2.8z"/>
+              </svg>
+            </div>
+            <div class="info">
+              <span class="platform-name">LinkedIn</span>
+              <span class="handle">in/sarasford</span>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button type="button" class="action-btn copy-btn" aria-label="Copy LinkedIn URL">
+              <span class="tooltip">copy link</span>
+              <svg class="copy-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="13" height="13" x="8" y="8" rx="2" ry="2"/>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v1"/>
+              </svg>
+              <svg class="check-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;" aria-hidden="true">
+                <path d="M20 6L9 17l-5-5"/>
+              </svg>
+            </button>
+            <a class="action-btn link-arrow" href="https://www.linkedin.com/in/sarasford" target="_blank" rel="noopener noreferrer" aria-label="Open Sara Ford on LinkedIn">
+              <span class="tooltip">open in new tab</span>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17L17 7"/>
+                <path d="M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+        </article>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    </main>
+
+    <script>
+      // Card click navigation
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          // If clicked inside copy button or external link anchor, let them handle it
+          if (e.target.closest('.copy-btn') || e.target.closest('.link-arrow')) return;
+          const url = card.dataset.url;
+          if (url) window.open(url, '_blank', 'noopener,noreferrer');
+        });
+      });
+
+      // Copy buttons with feedback tooltip
+      document.querySelectorAll('.copy-btn').forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+          e.stopPropagation();
+          const card = btn.closest('.card');
+          const textToCopy = card ? card.dataset.url : '';
+          if (!textToCopy) return;
+
+          try {
+            await navigator.clipboard.writeText(textToCopy);
+          } catch (err) {
+            const temp = document.createElement('textarea');
+            temp.value = textToCopy;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+          }
+
+          const copyIcon = btn.querySelector('.copy-icon');
+          const checkIcon = btn.querySelector('.check-icon');
+          const tooltip = btn.querySelector('.tooltip');
+
+          if (copyIcon && checkIcon) {
+            copyIcon.style.display = 'none';
+            checkIcon.style.display = 'block';
+          }
+          if (tooltip) {
+            tooltip.textContent = 'copied!';
+            tooltip.classList.add('show');
+          }
+
+          setTimeout(() => {
+            if (copyIcon && checkIcon) {
+              copyIcon.style.display = 'block';
+              checkIcon.style.display = 'none';
+            }
+            if (tooltip) {
+              tooltip.classList.remove('show');
+              tooltip.textContent = 'copy link';
+            }
+          }, 1500);
+        });
+      });
+    </script>
   </body>
 </html>
